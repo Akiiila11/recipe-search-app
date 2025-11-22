@@ -21,10 +21,10 @@ function RecipeDetails() {
 
   return (
     <div className='p-4'>
-      <div className='container mx-auto'>
-        <img src={recipe.image} alt={recipe.title} className='w-full h-60 object-cover' />
-        <h1 className='text-2xl font-bold'>{recipe.title}</h1>
-        <p>{recipe.instructions}</p>
+      <div className='container mx-auto bg-white p-8 rounded-2xl'>
+        <img src={recipe.image} alt={recipe.title} className='h-50 shadow-2xl mt' />
+        <h1 className='text-2xl font-bold mt-5'>{recipe.title}</h1>
+        <p className='mt-3'>{recipe.instructions}</p>
 
       </div>
     </div>
